@@ -1,0 +1,98 @@
+body {
+    background-color: #fcfbf4;
+    margin: 0%;
+}
+
+.ingredients-section {
+    background: linear-gradient(to bottom, #f4d06f 0%, #fcfbf4 100%);
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 15vh;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fcfbf4;
+}
+
+.nutrition-table {
+    width: 220px;
+    border: 1.5px solid #000;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000;
+    background: #fcfbf4;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+    padding: 1.5px 5px;
+    text-align: left;
+    line-height: 1.15;
+}
+
+.nutrition-table .title {
+    font-size: 19px;
+    font-weight: 900;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    letter-spacing: -0.5px;
+}
+
+.nutrition-table .serving {
+    font-size: 9px;
+    padding-bottom: 4px;
+}
+
+.thick-top { border-top: 5px solid #000; }
+.medium-top { border-top: 3px solid #000; }
+.thin-top { border-top: 1px solid #000; }
+
+.bold { font-weight: bold; }
+.right { text-align: right; }
+.indent { padding-left: 12px; }
+.small-text { font-size: 8.5px; }
+
+.vitamins {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.vitamins div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footnote {
+    font-size: 7.5px;
+    line-height: 1.1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.sub-table-wrapper {
+    padding: 2px 5px 4px 5px;
+}
+
+.daily-ref {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 7.5px;
+}
+
+.daily-ref th,
+.daily-ref td {
+    padding: 0.5px 0;
+    font-weight: normal;
+}
