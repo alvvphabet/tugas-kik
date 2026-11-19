@@ -32,7 +32,7 @@ model-viewer {
     display: flex;
     justify-content: center;
     margin: 5px 0;
-    background: linear-gradient(to top, #fcfbf4 0%, #f4d06f 100%);
+    background: linear-gradient(to top, #f4d06f 0%, #fcfbf4 100%);
 }
 
 .nutrition-table {
