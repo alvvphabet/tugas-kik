@@ -11,14 +11,27 @@ body {
     flex-direction: column;
     gap: 20px;
     height: 15vh;
+    margin-bottom: 00px;
 }
 
+.food-container {
+    margin: 40px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+}
+
+model-viewer {
+    height: 100%;
+    width: 100%;
+}
 .center-container {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    min-height: 100vh;
-    margin: 0;
+    margin: 20px 0;
     background-color: #fcfbf4;
 }
 
@@ -27,7 +40,7 @@ body {
     border: 1.5px solid #000;
     border-collapse: collapse;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 11px;
     color: #000;
     background: #fcfbf4;
 }
@@ -40,7 +53,7 @@ body {
 }
 
 .nutrition-table .title {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 900;
     padding-top: 4px;
     padding-bottom: 1px;
