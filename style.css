@@ -36,7 +36,7 @@ model-viewer {
 }
 
 .nutrition-table {
-    background: linear-gradient(to top, #fcfbf4 0%, #f4d06f 100%);
+    background-color: #f4d06f;
     width: 220px;
     border: 1.5px solid #000;
     border-collapse: collapse;
