@@ -15,6 +15,7 @@ body {
 }
 
 .food-container {
+    background-color: #fcfbf4;
     margin: 100px auto;
     padding: 0;
     display: flex;
