@@ -1,3 +1,4 @@
+
 body {
     background-color: #fcfbf4;
     margin: 0%;
@@ -32,11 +33,11 @@ model-viewer {
     display: flex;
     justify-content: center;
     margin: 5px 0;
-    background: #fcfbf4;
+    background: linear-gradient(to top, #B47C3A 0%, #fcfbf4 100%);
 }
 
 .nutrition-table {
-    background: linear-gradient(to top, #fcfbf4 0%, #B47C3A 100%);
+    background: #fcfbf4;
     width: 220px;
     border: 1.5px solid #000;
     border-collapse: collapse;
