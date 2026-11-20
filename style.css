@@ -15,6 +15,10 @@ body {
     margin-bottom: 00px;
 }
 
+.ingredients-section .liner {
+    font-size: 1px;
+}
+
 .food-container {
     margin: 100px auto;
     padding: 0;
