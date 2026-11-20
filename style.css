@@ -12,11 +12,13 @@ body {
     flex-direction: column;
     gap: 20px;
     height: 15vh;
-    margin-bottom: 00px;
+    margin-bottom: 0px;
 }
 
 .ingredients-section .liner {
     font-size: 20px;
+    gap: 0px;
+    margin-top: 0px;
 }
 
 .food-container {
