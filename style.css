@@ -10,7 +10,7 @@ body {
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 20px;
     height: 15vh;
     margin-bottom: 00px;
 }
